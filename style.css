@@ -1,0 +1,32 @@
+.nomecompleto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+  }
+  body{
+
+    font-family: Epilogue, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #9595a6;
+  }
+  h1{
+    color: #27282e;
+  }
+  h4{
+    color: #17191e;
+  }
+  h2{
+    color: #17191e;
+  }
+  img {
+    border-radius:03%;
+    
+  }
+  .orgulho{
+    font-size: 19px;
+    color: #085738;
+  }
+  .trybe{
+    color: #085738;
+  }
+  
