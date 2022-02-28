@@ -1,9 +1,10 @@
 .nomecompleto{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:30px;
+    text-align: center;
   }
   body{
-
+    padding: 2%;
     font-family: Epilogue, sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -28,5 +29,36 @@
   }
   .trybe{
     color: #085738;
+    height: 200px;
   }
-  
+  div {
+    border: 2px solid green;
+    position: relative;
+  }
+  .fotos{
+    border: 10px;
+    display: inline-block;
+
+  }
+  .descricao{
+    display:inline-block;
+    height: 200px;
+    
+  }
+  .div-descricao{
+    display: inline-block;
+    height: 170px;
+    width: 600px;
+    float: right;
+    bottom: 70px;
+    position: absolute;
+  }
+  .div-fotos{
+    border: 5px solid blue;
+    width: 152px;
+    display: inline-block;
+    height: 276px;
+  }
+  .indice{
+    display: inline-flex;
+  }
