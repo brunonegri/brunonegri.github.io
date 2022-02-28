@@ -2,6 +2,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:30px;
     text-align: center;
+    padding-top: 40px;
   }
   body{
     padding: 2%;
@@ -19,10 +20,6 @@
   h2{
     color: #17191e;
   }
-  img {
-    border-radius:03%;
-    
-  }
   .orgulho{
     font-size: 19px;
     color: #085738;
@@ -31,18 +28,25 @@
     color: #085738;
     height: 200px;
   }
-  div {
-    border: 2px solid green;
+  div{
+   
+  }
+  .div-principal {
+    
     position: relative;
+    margin-top: 5%;
   }
   .fotos{
-    border: 10px;
-    display: inline-block;
+    
+    border-radius: 5%;
+    width: 149px;
+    height: 275px;
 
   }
   .descricao{
     display:inline-block;
     height: 200px;
+
     
   }
   .div-descricao{
@@ -51,14 +55,21 @@
     width: 600px;
     float: right;
     bottom: 70px;
+    right: 75px;
     position: absolute;
   }
   .div-fotos{
-    border: 5px solid blue;
     width: 152px;
     display: inline-block;
     height: 276px;
   }
   .indice{
     display: inline-flex;
+    position: fixed;
+    top: 10px;
+  }
+  .indice li{
+    padding: 25px;
+    
+    
   }
